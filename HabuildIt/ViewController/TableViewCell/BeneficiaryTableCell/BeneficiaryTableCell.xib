@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="162" id="KGk-i7-Jjw" customClass="BeneficiaryTableCell" customModule="HabuildIt" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="122"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="122"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ATO-ec-YLA">
+                        <rect key="frame" x="5" y="5" width="310" height="112"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="LabelLabel  LabelLabel  LabelLabel " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z9w-Kp-Amr">
+                                <rect key="frame" x="15" y="5" width="202" height="44"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label Label " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DDU-g1-Eqc">
+                                <rect key="frame" x="15" y="56.999999999999993" width="280" height="20.666666666666664"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="15"/>
+                                <color key="textColor" name="561D59"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label Label Label Label Label " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Wf-TA-1Cu">
+                                <rect key="frame" x="15" y="85.666666666666671" width="280" height="21.333333333333329"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CAk-Gg-xyW" customClass="CMCustomButtom" customModule="HabuildIt" customModuleProvider="target">
+                                <rect key="frame" x="232" y="5" width="70" height="30"/>
+                                <color key="backgroundColor" name="561D59"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="7qv-Zh-cdW"/>
+                                    <constraint firstAttribute="height" constant="30" id="DVG-IW-8fi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="7"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Notify"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPJ-Xc-d6e">
+                                <rect key="frame" x="270" y="40" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="GtH-yN-LoY"/>
+                                    <constraint firstAttribute="width" constant="35" id="xAQ-VS-SWP"/>
+                                </constraints>
+                                <color key="tintColor" name="561D59"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="download" title=" " subtitle=" "/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="DDU-g1-Eqc" secondAttribute="trailing" constant="15" id="2R6-qj-L8F"/>
+                            <constraint firstAttribute="trailing" secondItem="bPJ-Xc-d6e" secondAttribute="trailing" constant="5" id="3A2-9r-cLi"/>
+                            <constraint firstItem="Z9w-Kp-Amr" firstAttribute="top" secondItem="ATO-ec-YLA" secondAttribute="top" constant="5" id="BaI-Td-Q1z"/>
+                            <constraint firstItem="DDU-g1-Eqc" firstAttribute="top" secondItem="Z9w-Kp-Amr" secondAttribute="bottom" constant="8" id="LS5-Tq-hCb"/>
+                            <constraint firstAttribute="bottom" secondItem="2Wf-TA-1Cu" secondAttribute="bottom" constant="5" id="NEO-ZZ-wkm"/>
+                            <constraint firstItem="CAk-Gg-xyW" firstAttribute="top" secondItem="Z9w-Kp-Amr" secondAttribute="top" id="NtC-2t-1Ij"/>
+                            <constraint firstAttribute="trailing" secondItem="CAk-Gg-xyW" secondAttribute="trailing" constant="8" id="SeS-vz-lVa"/>
+                            <constraint firstItem="bPJ-Xc-d6e" firstAttribute="top" secondItem="CAk-Gg-xyW" secondAttribute="bottom" constant="5" id="aWi-Eg-rAc"/>
+                            <constraint firstItem="2Wf-TA-1Cu" firstAttribute="top" secondItem="DDU-g1-Eqc" secondAttribute="bottom" constant="8" id="dWA-z4-kdS"/>
+                            <constraint firstItem="2Wf-TA-1Cu" firstAttribute="leading" secondItem="DDU-g1-Eqc" secondAttribute="leading" id="evc-5O-x5e"/>
+                            <constraint firstItem="Z9w-Kp-Amr" firstAttribute="leading" secondItem="ATO-ec-YLA" secondAttribute="leading" constant="15" id="hQh-Sq-jRN"/>
+                            <constraint firstItem="CAk-Gg-xyW" firstAttribute="leading" secondItem="Z9w-Kp-Amr" secondAttribute="trailing" constant="15" id="hzw-vc-KH8"/>
+                            <constraint firstItem="2Wf-TA-1Cu" firstAttribute="trailing" secondItem="DDU-g1-Eqc" secondAttribute="trailing" id="vQO-wJ-wGr"/>
+                            <constraint firstItem="DDU-g1-Eqc" firstAttribute="leading" secondItem="ATO-ec-YLA" secondAttribute="leading" constant="15" id="vbA-SE-e5Z"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="ATO-ec-YLA" secondAttribute="trailing" constant="5" id="CU5-wK-hOs"/>
+                    <constraint firstAttribute="bottom" secondItem="ATO-ec-YLA" secondAttribute="bottom" constant="5" id="OUc-mr-HhT"/>
+                    <constraint firstItem="ATO-ec-YLA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="RRf-o0-QbB"/>
+                    <constraint firstItem="ATO-ec-YLA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="ljV-iV-1Xj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnDownload" destination="bPJ-Xc-d6e" id="X0A-3l-8RE"/>
+                <outlet property="btnShare" destination="CAk-Gg-xyW" id="vwB-6p-8Um"/>
+                <outlet property="labelContact" destination="DDU-g1-Eqc" id="LoS-73-IMv"/>
+                <outlet property="labelName" destination="Z9w-Kp-Amr" id="tBz-oJ-giB"/>
+                <outlet property="labelUpdated" destination="2Wf-TA-1Cu" id="i3h-a2-Umt"/>
+                <outlet property="viewCard" destination="ATO-ec-YLA" id="obd-Zj-Aj5"/>
+            </connections>
+            <point key="canvasLocation" x="100.76335877862596" y="-9.8591549295774659"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="download" width="16.666666030883789" height="16.666666030883789"/>
+        <namedColor name="561D59">
+            <color red="0.33725490196078434" green="0.11372549019607843" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

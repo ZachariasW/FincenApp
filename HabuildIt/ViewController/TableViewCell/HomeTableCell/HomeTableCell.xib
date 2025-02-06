@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="HomeTableCell" rowHeight="104" id="KGk-i7-Jjw" customClass="HomeTableCell" customModule="HabuildIt" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="104"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="104"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="60C-hP-V5L">
+                        <rect key="frame" x="5" y="5" width="310" height="94"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AaI-Jc-pYI">
+                                <rect key="frame" x="20" y="15" width="225" height="64"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="28"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="9" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lCs-6q-2mM" customClass="CMCustomLabel" customModule="HabuildIt" customModuleProvider="target">
+                                <rect key="frame" x="280" y="39.5" width="15" height="15"/>
+                                <color key="backgroundColor" red="0.98823529409999999" green="0.1176470588" blue="0.0039215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="15" id="Ofa-SH-knD">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="28"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="15" id="Rec-JZ-Sya">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="28"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="10"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="14"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="AaI-Jc-pYI" firstAttribute="top" secondItem="60C-hP-V5L" secondAttribute="top" constant="15" id="AhW-NB-zrg"/>
+                            <constraint firstItem="AaI-Jc-pYI" firstAttribute="leading" secondItem="60C-hP-V5L" secondAttribute="leading" constant="20" id="U6l-hu-ja6"/>
+                            <constraint firstItem="lCs-6q-2mM" firstAttribute="leading" secondItem="AaI-Jc-pYI" secondAttribute="trailing" constant="35" id="WvT-Rp-D5o"/>
+                            <constraint firstItem="lCs-6q-2mM" firstAttribute="centerY" secondItem="AaI-Jc-pYI" secondAttribute="centerY" id="dt3-JV-Ol2"/>
+                            <constraint firstAttribute="trailing" secondItem="lCs-6q-2mM" secondAttribute="trailing" constant="15" id="tzB-i4-nUf"/>
+                            <constraint firstAttribute="bottom" secondItem="AaI-Jc-pYI" secondAttribute="bottom" constant="15" id="xsF-xA-dYC"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="60C-hP-V5L" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="9AZ-vP-gxn"/>
+                    <constraint firstAttribute="bottom" secondItem="60C-hP-V5L" secondAttribute="bottom" constant="5" id="TmE-qh-lNg"/>
+                    <constraint firstItem="60C-hP-V5L" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="bnw-jN-u1i"/>
+                    <constraint firstAttribute="trailing" secondItem="60C-hP-V5L" secondAttribute="trailing" constant="5" id="f5c-2S-ZMz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="labelName" destination="AaI-Jc-pYI" id="HDz-Qz-HZk"/>
+                <outlet property="labelbadge" destination="lCs-6q-2mM" id="PWS-yd-O3s"/>
+                <outlet property="viewCard" destination="60C-hP-V5L" id="nr9-Ks-9hS"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="75.669642857142847"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="lCs-6q-2mM">
+            <size key="intrinsicContentSize" width="6" height="14"/>
+        </designable>
+    </designables>
+</document>

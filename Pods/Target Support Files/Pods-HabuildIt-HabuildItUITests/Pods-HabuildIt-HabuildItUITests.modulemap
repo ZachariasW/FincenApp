@@ -1,0 +1,6 @@
+framework module Pods_HabuildIt_HabuildItUITests {
+  umbrella header "Pods-HabuildIt-HabuildItUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
